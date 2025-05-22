@@ -1,6 +1,6 @@
-const arg = process.argv;  //initiating the argument vector 
+const arguments = process.argv;
 
-if (Number(arg[2])    //casting the input to an integer
-    console.log("My number: " + arg[2]);
-else                    //catering for non-number integers
+if (Number(arguments[2]))
+    console.log("My number: " + arguments[2]);
+else
     console.log("Not a number");
