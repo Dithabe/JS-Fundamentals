@@ -1,8 +1,8 @@
 const arguments = process.argv;
 
-if (arguments.length < 1)
+if (arguments.length == 2)
     console.log('No argument');
-else if (arguments == 1)
+else if (arguments == 3)
     console.log("Argument found");
-else if (arguments == 2)
+else if (arguments == 4)
     console.log("Arguments found");
